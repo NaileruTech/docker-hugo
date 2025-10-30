@@ -74,7 +74,7 @@ variables:
 stages:
   - deploy
 
-image: nailerutech/docker-hugo:latest  # Use the built image
+image: ghcr.io/nailerutech/docker-hugo:main
 
 pages:
   stage: deploy
